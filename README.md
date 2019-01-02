@@ -13,7 +13,7 @@ $ python3 scraper.py [USER]
 
 ## Example
 
-Since `nousername` does not exist, a 404 error will be thrown, ending the execution of the program.
+Since `noUsername` does not exist, a 404 error will be thrown, ending the execution of the program.
 
 ```sh
 $ python3 scraper.py nouUername
