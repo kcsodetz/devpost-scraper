@@ -1,6 +1,6 @@
 # Devpost Scraper 
 
-A web scraper that given a valid Devpost username, the number of projects they have, hackathons attended, followers on Devpost, and hackathons won are displayed in the command line.
+A web scraper that, given a valid Devpost username, the number of projects that user has, hackathons attended, followers on Devpost, and hackathons won are displayed in the command line.
 
 ## Usage
 
