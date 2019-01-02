@@ -16,9 +16,11 @@ $ python3 scraper.py [USER]
 Since `nousername` does not exist, a 404 error will be thrown, ending the execution of the program.
 
 ```sh
-$ python3 scraper.py no_username
+$ python3 scraper.py nouUername
 
-[ERROR] 404 Error, cannot find username nousername
+Getting Devpost info from https://www.devpost.com/noUsername...
+
+[ERROR] 404 Error, cannot find username noUsername
 
 ```
 
