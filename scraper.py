@@ -2,6 +2,7 @@ import requests
 import sys
 from bs4 import BeautifulSoup
 
+OK = '\033[92m'
 FAIL = '\033[91m'
 WARN = '\033[93m'
 NC = '\033[0m'
@@ -13,6 +14,7 @@ if len(sys.argv) != 2:
 
 user = sys.argv[1]
 url = 'https://www.devpost.com/' + user
+print(OK + "Getting Devpost info from " + url + "...\n" + NC)
 data = requests.get(url=url)
 
 if data.status_code != 200:
