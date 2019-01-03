@@ -1,6 +1,6 @@
-# Devpost Scraper 
+# Devpost User Info Scraper 
 
-A web scraper that given a valid Devpost username, the number of projects they have, hackathons attended, followers on Devpost, and hackathons won are displayed in the command line.
+A web scraper that, given a valid Devpost username, displays the number of projects, hackathons, followers, and hackathons won on the command line.
 
 ## Usage
 
@@ -13,12 +13,14 @@ $ python3 scraper.py [USER]
 
 ## Example
 
-Since `nousername` does not exist, a 404 error will be thrown, ending the execution of the program.
+Since `noUsername` does not exist, a 404 error will be thrown, ending the execution of the program.
 
 ```sh
-$ python3 scraper.py no_username
+$ python3 scraper.py nouUername
 
-[ERROR] 404 Error, cannot find username nousername
+Getting Devpost info from https://www.devpost.com/noUsername...
+
+[ERROR] 404 Error, cannot find username noUsername
 
 ```
 
