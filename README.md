@@ -4,6 +4,14 @@ A web scraper that, given a valid Devpost username, displays the number of proje
 
 ## Usage
 
+BeautifulSoup4 is used as the main driver for scraping data. To install, simply run:
+
+```sh
+$ pip install -r requirements.txt
+
+```
+
+
 To use, run:
 
 ```sh
