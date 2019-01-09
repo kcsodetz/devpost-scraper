@@ -7,7 +7,7 @@ A web scraper that, given a valid Devpost username, displays the number of proje
 To use, run:
 
 ```sh
-$ python3 scraper.py [USER]
+$ python3 dev-scraper.py [USER]
 
 ```
 
@@ -16,7 +16,7 @@ $ python3 scraper.py [USER]
 Since `noUsername` does not exist, a 404 error will be thrown, ending the execution of the program.
 
 ```sh
-$ python3 scraper.py nouUername
+$ python3 -dev scraper.py nouUername
 
 Getting Devpost info from https://www.devpost.com/noUsername...
 
@@ -24,10 +24,10 @@ Getting Devpost info from https://www.devpost.com/noUsername...
 
 ```
 
-A succesful call of `scraper.py` would look like:
+A succesful call of `dev-scraper.py` would look like:
 
 ```sh
-$ python3 scraper.py kcsodetz
+$ python3 dev-scraper.py kcsodetz
 
 Getting Devpost info from https://www.devpost.com/kcsodetz...
 
