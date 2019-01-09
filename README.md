@@ -16,7 +16,7 @@ $ python3 dev-scraper.py [USER]
 Since `noUsername` does not exist, a 404 error will be thrown, ending the execution of the program.
 
 ```sh
-$ python3 -dev scraper.py nouUername
+$ python3 -dev scraper.py noUsername
 
 Getting Devpost info from https://www.devpost.com/noUsername...
 
