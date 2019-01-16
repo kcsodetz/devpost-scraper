@@ -1,5 +1,5 @@
-import requests
 import sys
+import requests
 from bs4 import BeautifulSoup
 
 # Terminal Colors
@@ -11,7 +11,7 @@ NC = '\033[0m'
 # Check number of args
 if len(sys.argv) != 2:
     print(FAIL + "[ERROR] Missing argument `username`\n")
-    print(NC + "Usage: python3 scraper.py `username`\n")
+    print(NC + "Usage: python3 dev-scraper.py `username`\n")
     sys.exit(1)
 
 # Put username in the request url
